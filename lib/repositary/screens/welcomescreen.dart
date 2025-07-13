@@ -4,10 +4,10 @@
 
 import 'package:flutter/material.dart';
 import 'package:zippyit/repositary/screens/bottomnav/bottomnavscreen.dart';
-import 'package:zippyit/repositary/signupscreen.dart';
 import 'package:zippyit/repositary/widgets/uihelper.dart';
 
-import '../auth_helper.dart';
+import '../../auth_helper.dart';
+import '../../signupscreen.dart';
 
 //stateless widget => which has no functions
 //calling class name as Welcome screen

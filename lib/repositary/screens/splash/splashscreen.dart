@@ -4,6 +4,8 @@ import 'package:firebase_auth/firebase_auth.dart';
 import 'package:zippyit/repositary/screens/bottomnav/bottomnavscreen.dart';
 import 'package:zippyit/repositary/screens/welcomescreen.dart';
 
+import '../../widgets/uihelper.dart';
+
 //stateful widget becoz it can navigate to another screen in few sec
 class Splashscreen extends StatefulWidget {
   const Splashscreen({super.key});

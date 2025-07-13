@@ -2,7 +2,7 @@ import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:zippyit/repositary/screens/bottomnav/bottomnavscreen.dart';
 import 'package:zippyit/repositary/widgets/uihelper.dart';
-import '../signupscreen.dart';
+import '../../signupscreen.dart';
 
 class Loginscreen extends StatelessWidget {
   Loginscreen({super.key});

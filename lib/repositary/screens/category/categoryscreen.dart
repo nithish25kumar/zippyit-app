@@ -2,7 +2,7 @@ import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:speech_to_text/speech_to_text.dart' as stt;
 import 'package:zippyit/repositary/screens/userprofile/userprofilescreen.dart';
-import 'package:zippyit/repositary/widgets/uihelper.dart';
+import '../../widgets/uihelper.dart';
 import '../productdetailscreen.dart';
 
 //stateful widget used to perform fuctions onclick
