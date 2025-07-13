@@ -1,0 +1,100 @@
+{
+  "data": [
+    {
+      "img": "skincar1.png",
+      "text": "Personal Care \n & Products"
+    },
+    {
+      "img": "dressp.png",
+      "text": "Clothings /\n Dress vibe"
+    },
+    {
+      "img": "ps5.png",
+      "text": "Appliances  \n & Gadgets"
+    },
+    {
+      "img": "faccar1.png",
+      "text": "Facewash \n& Products"
+    }
+  ],
+  "category": [
+    {
+      "img": "549cake.jpg",
+      "text": "Everything is \nChocolate Cake",
+      "price": "249"
+    },
+    {
+      "img": "milksahke.jpg",
+      "text": "Cookies and Cream\n Ice Cream",
+      "price": "99"
+    },
+    {
+      "img": "dairy.jpg",
+      "text": "Dairy Milk \n Pure Goodness in Every Drop.",
+      "price": "79"
+    },
+    {
+      "img": "festables.webp",
+      "text": "Festables \nFeast like a Beast.",
+      "price": "349"
+    },
+    {
+      "img": "fivestar.jpeg",
+      "text": "FiveStar \nJust Do Nothing.",
+      "price": "79"
+    },
+    {
+      "img": "darkchoco.webp",
+      "text": "Dark Chocolate\n Taste Better.",
+      "price": "199"
+    },
+    {
+      "img": "cadbury.webp",
+      "text": "Dairy Milk \nSilk Pure Goodness in Every Drop.",
+      "price": "179"
+    },
+    {
+      "img": "snickers.jpeg",
+      "text": "Snickers Hungry \nEat Snickers!",
+      "price": "49"
+    }
+  ],
+  "grocerykitchen": [
+    {
+      "img": "aavinmilk.webp",
+      "text": "Aavin Milk \n& Fresh milk",
+      "price": "29"
+    },
+    {
+      "img": "atta.webp",
+      "text": "Aashirvaad Atta/\n Whole Wheat, 10 kg",
+      "price": "499"
+    },
+    {
+      "img": "basmatirice.jpg",
+      "text": "Basmati Rice 3Kg \nSuitable for daily cooking",
+      "price": "699"
+    },
+    {
+      "img": "bis1.webp",
+      "text": "Britannia 50-50 \nSweet and salty!",
+      "price": "10"
+    },
+    {
+      "img": "bis2.jpg",
+      "text": "Oreo Chocolately\n choco Sandwich!",
+      "price": "49"
+    },
+    {
+      "img": "bis3.jpg",
+      "text": "Hide and Seek \nMade with world's fine chocolate!",
+      "price": "29"
+    },
+    {
+      "img": "bis4.webp",
+      "text": "Good Day \nCashew Cookies!",
+      "price": "10"
+    }
+
+  ]
+}
