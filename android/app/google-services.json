@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "849777751928",
+    "project_id": "zippyit-firebase",
+    "storage_bucket": "zippyit-firebase.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:849777751928:android:194e22a7a3ed75d4203a8d",
+        "android_client_info": {
+          "package_name": "com.example.zippyit"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCNYvBdZP8HZusPkQvx0mXZFg7J7c9nGFk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
