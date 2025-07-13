@@ -23,7 +23,7 @@ if (flutterVersionName == null) {
 }
 
 android {
-    namespace = "com.example.zippyitapp"
+    namespace = "com.example.zippyit"
     compileSdk = flutter.compileSdkVersion
     ndkVersion = flutter.ndkVersion
 
@@ -34,7 +34,7 @@ android {
 
 
     defaultConfig {
-        applicationId = "com.example.zippyitapp"
+        applicationId = "com.example.zippyit"
 
         minSdk = 23
         targetSdk = flutter.targetSdkVersion

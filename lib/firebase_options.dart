@@ -64,7 +64,7 @@ class DefaultFirebaseOptions {
     messagingSenderId: '849777751928',
     projectId: 'zippyit-firebase',
     storageBucket: 'zippyit-firebase.firebasestorage.app',
-    iosBundleId: 'com.example.zippyit',
+    iosBundleId: 'com.example.zippyitapp',
   );
 
   static const FirebaseOptions macos = FirebaseOptions(
@@ -73,7 +73,7 @@ class DefaultFirebaseOptions {
     messagingSenderId: '849777751928',
     projectId: 'zippyit-firebase',
     storageBucket: 'zippyit-firebase.firebasestorage.app',
-    iosBundleId: 'com.example.zippyit',
+    iosBundleId: 'com.example.zippyitapp',
   );
 
   static const FirebaseOptions windows = FirebaseOptions(
