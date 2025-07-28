@@ -16,7 +16,6 @@ class Splashscreen extends StatefulWidget {
 
 class _SplashscreenState extends State<Splashscreen> {
   @override
-  //initialization where setting page duration to 3 seconds
   void initState() {
     super.initState();
     Timer(Duration(seconds: 3), () {
@@ -27,8 +26,7 @@ class _SplashscreenState extends State<Splashscreen> {
           context,
           MaterialPageRoute(builder: (_) => Bottomnavscreen()),
         );
-      } //else will navigate to the welcome screen to login with google
-      else {
+      } else {
         Navigator.pushReplacement(
           context,
           MaterialPageRoute(builder: (_) => const Welcomescreen()),

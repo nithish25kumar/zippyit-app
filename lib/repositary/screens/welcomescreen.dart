@@ -167,7 +167,7 @@ class Welcomescreen extends StatelessWidget {
                             child: Row(
                               mainAxisAlignment: MainAxisAlignment.center,
                               children: [
-                                Uihelper.CustomImage(img: "google.png"),
+                                Uihelper.CustomImage(img: "google.webp"),
                                 const SizedBox(width: 10),
                                 const Text(
                                   "Continue with Google",
