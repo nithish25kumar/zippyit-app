@@ -9,32 +9,18 @@ import 'package:zippyit/repositary/widgets/uihelper.dart';
 import '../../auth_helper.dart';
 import '../../signupscreen.dart';
 
-//stateless widget => which has no functions
-//calling class name as Welcome screen
-
 class Welcomescreen extends StatelessWidget {
   const Welcomescreen({super.key});
 
   @override
-
-  //building the stateless widget
-
   Widget build(BuildContext context) {
-    //scaffold has more functions so it is used in return
-
     return Scaffold(
-      //background colour
       backgroundColor: Color(0xFFF5F5DC),
       body: SafeArea(
-        //avoid the clashes in the screen
-        //make the content scrollable
         child: SingleChildScrollView(
           child: Padding(
-            //top of the screen
             padding: const EdgeInsets.symmetric(horizontal: 16.0, vertical: 22),
-            //using child for single widget
             child: Column(
-              //use children inside the column
               crossAxisAlignment: CrossAxisAlignment.center,
               children: [
                 Container(
@@ -79,12 +65,9 @@ class Welcomescreen extends StatelessWidget {
                 ),
                 const SizedBox(height: 16),
                 Container(
-                  //padding inside the container
                   padding:
                       const EdgeInsets.symmetric(horizontal: 16, vertical: 10),
-                  //container decoration
                   decoration: BoxDecoration(
-                    //color inside the container
                     color: Colors.white,
                     border: Border.all(color: Colors.white, width: 8),
                     borderRadius: BorderRadius.circular(5),
@@ -106,7 +89,6 @@ class Welcomescreen extends StatelessWidget {
                 const SizedBox(height: 20),
 
                 Card(
-                  //elevation of the card
                   elevation: 5,
                   shape: RoundedRectangleBorder(
                     borderRadius: BorderRadius.circular(0),
@@ -137,7 +119,7 @@ class Welcomescreen extends StatelessWidget {
 
                         // Google sig in button inside the  button
                         SizedBox(
-                          height: 50,
+                          height: 60,
                           width: double.infinity,
                           child: OutlinedButton(
                             onPressed: () async {
@@ -158,26 +140,29 @@ class Welcomescreen extends StatelessWidget {
                             //outline button
                             style: OutlinedButton.styleFrom(
                               side: const BorderSide(
-                                  color: Colors.black, width: 2),
+                                  color: Colors.white, width: 2),
                               shape: RoundedRectangleBorder(
                                 borderRadius: BorderRadius.circular(0),
                               ),
                               backgroundColor: Colors.white,
                             ),
-                            child: Row(
-                              mainAxisAlignment: MainAxisAlignment.center,
-                              children: [
-                                Uihelper.CustomImage(img: "google.webp"),
-                                const SizedBox(width: 10),
-                                const Text(
-                                  "Continue with Google",
-                                  style: TextStyle(
-                                    color: Colors.black87,
-                                    fontWeight: FontWeight.w600,
-                                    fontSize: 15,
+                            child: Padding(
+                              padding: const EdgeInsets.all(8.0),
+                              child: Row(
+                                mainAxisAlignment: MainAxisAlignment.center,
+                                children: [
+                                  Uihelper.CustomImage(img: "google.webp"),
+                                  const SizedBox(width: 10),
+                                  const Text(
+                                    "Continue with Google",
+                                    style: TextStyle(
+                                      color: Colors.black87,
+                                      fontWeight: FontWeight.w600,
+                                      fontSize: 15,
+                                    ),
                                   ),
-                                ),
-                              ],
+                                ],
+                              ),
                             ),
                           ),
                         ),

@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:url_launcher/url_launcher.dart';
+import 'package:zippyit/repositary/screens/welcomescreen.dart';
 
 class UserProfileScreen extends StatelessWidget {
   final User? user = FirebaseAuth.instance.currentUser;
@@ -33,12 +34,28 @@ class UserProfileScreen extends StatelessWidget {
             child: Stack(
               children: [
                 Positioned(
-                  top: 40,
+                  top: 50,
                   left: 16,
                   child: GestureDetector(
                     onTap: () => Navigator.pop(context),
                     child: const Icon(Icons.arrow_back_ios_new,
                         color: Colors.white, size: 28),
+                  ),
+                ),
+                Positioned(
+                  right: 20,
+                  bottom: 130,
+                  //gestor dectector to check onclick status
+                  child: GestureDetector(
+                    onTap: () async {
+                      await FirebaseAuth.instance.signOut();
+                      Navigator.pushReplacement(
+                        context,
+                        MaterialPageRoute(
+                            builder: (_) => const Welcomescreen()),
+                      );
+                    },
+                    child: const Icon(Icons.logout, color: Colors.white),
                   ),
                 ),
                 Align(

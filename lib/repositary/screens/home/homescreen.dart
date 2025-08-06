@@ -123,14 +123,11 @@ class _HomescreenState extends State<Homescreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      //body->child scrollview
       body: SingleChildScrollView(
-        //child->column->children->stack
         child: Column(
           children: [
-            //height from top of the column
             const SizedBox(height: 40),
-            //stack->children->container->child
+
             Stack(
               children: [
                 Container(
@@ -174,27 +171,11 @@ class _HomescreenState extends State<Homescreen> {
                   ),
                 ),
                 //logout symbol positioned
-                Positioned(
-                  right: 20,
-                  bottom: 150,
-                  //gestor dectector to check onclick status
-                  child: GestureDetector(
-                    onTap: () async {
-                      await FirebaseAuth.instance.signOut();
-                      Navigator.pushReplacement(
-                        context,
-                        MaterialPageRoute(
-                            builder: (_) => const Welcomescreen()),
-                      );
-                    },
-                    child: const Icon(Icons.logout, color: Colors.white),
-                  ),
-                ),
 
                 //userprofile screen positioned
                 Positioned(
-                  right: 20,
-                  bottom: 90,
+                  right: 5,
+                  bottom: 110,
                   //onclick screen profile
                   child: GestureDetector(
                     onTap: () {
@@ -285,7 +266,10 @@ class _HomescreenState extends State<Homescreen> {
                         fontfamily: "bold",
                       ),
                       Uihelper.CustomImage(img: "image 55.png"),
-                      Uihelper.CustomImage(img: "image 61.png"),
+                      Image.asset(
+                        "assets/images/image 61.png",
+                        width: 30,
+                      )
                     ],
                   ),
                   Expanded(

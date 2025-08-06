@@ -13,10 +13,10 @@ class Uihelper {
 
   static CustomText(
       {required String text,
-        required Color color,
-        required FontWeight fontweight,
-        String? fontfamily,
-        required double fontsize}) {
+      required Color color,
+      required FontWeight fontweight,
+      String? fontfamily,
+      required double fontsize}) {
     return Text(text,
         style: TextStyle(
             fontSize: fontsize,
